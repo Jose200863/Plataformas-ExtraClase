@@ -1,0 +1,8 @@
+FROM atmoz/sftp
+
+# usuario : contraseña ::: carpeta
+ENV SFTP_USERS="admin:admin123:::ExtraClase"
+
+EXPOSE 22
+
+
